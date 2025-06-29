@@ -1,0 +1,118 @@
+body {
+    background-image: url("fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg");
+
+}
+
+p{
+    padding-top: 30px;
+    padding-left:125px ;
+    position: relative;
+    
+}
+
+h2{
+    padding-top: 70px;
+    padding-left:140px ;
+    transition: transform 0.10s ease;
+    
+}
+
+h2:hover{
+   transform: scale(1.1);
+    
+}
+
+#main {
+    background-color: rgb(7, 7, 49);
+    display: flex;
+    margin-top: 10%;
+    margin-left: 425px;
+    border-radius: 30px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 3px 5px 5px 3px rgb(0, 3, 32);
+}
+
+button {
+    margin-top: 350px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    transition: box-shadow 0.03s ease, transform 0.10s ease;
+    cursor: pointer;
+
+}
+
+#papel {
+
+    border-image: solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+    position: absolute;
+
+
+
+
+
+}
+
+button:hover {
+
+    transform: scale(1.1);
+    box-shadow: 2px 3px 2px 3px rgba(255, 255, 255, 0.616);
+
+
+}
+
+#pedra {
+    border-image: solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: flex;
+    position: absolute;
+
+
+
+
+}
+
+#tesoura {
+    border-image: solid white;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    margin-left: 350px;
+    display: flex;
+    position: absolute;
+
+
+}
+
+
+
+#screen {
+    background-color: white;
+    border-image: solid white;
+    border-radius: 20px;
+    width: 435px;
+    height: 200px;
+    margin-top: 60px;
+    margin-left: 35px;
+    position: absolute;
+
+
+}
+
+
+
+
+img {
+    border-image: solid white;
+    border-radius: 20px;
+
+
+
+
+}

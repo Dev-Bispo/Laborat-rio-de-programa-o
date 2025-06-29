@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='PPT.css') }}">
+
+
+    <title>PPT</title>
+
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="screen">
+            {% if resultado %}
+            <h2>{{ resultado }}</h2>
+            <p>A máquina escolheu: {{ escolha_maquina }}</p>
+            {% endif %}
+        </div>
+        <form method="post" action="/game">
+            <div class="try" id="pedra">
+                <button type="submit" name="botao" value="pedra"><img
+                        src="{{ url_for('static', filename='pedra.jpg') }}" width="100" height="100">
+                </button>
+            </div>
+            <div class="try" id="papel">
+                <button type="submit" name="botao" value="papel"><img
+                        src="{{ url_for('static', filename='papel.jpg') }}" width="100" height="100">
+                </button>
+            </div>
+            <div class="try" id="tesoura">
+                <button type="submit" name="botao" value="tesoura"><img
+                        src="{{ url_for('static', filename='tesoura.jpg') }}" width="100" height="100">
+                </button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
