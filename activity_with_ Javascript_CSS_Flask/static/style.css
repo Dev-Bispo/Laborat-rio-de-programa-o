@@ -1,0 +1,48 @@
+#main{
+    display: flex;
+    justify-items: center;    
+    justify-content: center;
+    background-color: rgb(121, 121, 129);
+}
+
+#main_page{
+    
+    display: flex;
+    justify-items: center;    
+    justify-content: center;
+    background-color: rgb(121, 121, 129);
+}
+
+#confirmacao{
+    
+    margin: 11%; 
+    text-align: center;
+
+}
+.mens{
+    
+    margin: 20%; 
+    text-align: center;
+    font-size: 300%;
+
+}
+
+
+#formulario{
+    
+    margin: 11%; 
+    padding: 5%;  
+    justify-items: center;    
+    justify-content: center;
+    text-align: center;
+    border-radius: 20%;
+    background-color: white;
+}
+
+p{
+    text-decoration: double;
+    font-size: 200%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-style: oblique;
+    color: green;
+}
